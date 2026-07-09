@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="generic">
+  <id>cz.vitexsoftware.php-symfony-polyfill-mbstring</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Symfony Polyfill for Mbstring</name>
+  <summary>Symfony polyfill for the Mbstring PHP extension</summary>
+  <description>
+    <p>
+      Provides a pure-PHP implementation of the subset of the Mbstring
+      extension functions used by libraries, so they run even when the
+      ext-mbstring extension is not loaded. Falls back to ext-iconv.
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/symfony/polyfill</url>
+</component>

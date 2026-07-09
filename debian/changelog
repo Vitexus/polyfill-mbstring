@@ -1,0 +1,7 @@
+php-symfony-polyfill-mbstring (1.38.2-1) UNRELEASED; urgency=medium
+
+  * Initial packaging of symfony/polyfill-mbstring (tag v1.38.2), a
+    dependency of the OpenTelemetry PHP SDK used by MultiFlexi's OTLP
+    metrics exporter.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 09 Jul 2026 12:52:20 +0200

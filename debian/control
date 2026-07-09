@@ -1,0 +1,29 @@
+Source: php-symfony-polyfill-mbstring
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools,
+ php-cli,
+ jq,
+ phpab,
+ appstream,
+Standards-Version: 4.7.0
+Homepage: https://github.com/symfony/polyfill
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/polyfill-mbstring.git
+Vcs-Browser: https://github.com/Vitexus/polyfill-mbstring
+
+Package: php-symfony-polyfill-mbstring
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-common,
+ php-iconv,
+ composer,
+Description: Symfony polyfill for the Mbstring PHP extension
+ Provides a pure-PHP implementation of the subset of the Mbstring
+ extension functions used by libraries, so they run even when the
+ ext-mbstring extension is not loaded. Falls back to ext-iconv.
